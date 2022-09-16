@@ -7,10 +7,6 @@ import java.util.regex.*;
 //100%
 public class Main1 {
 
-    /*
-     * 请完成下面这个函数，实现题目要求的功能
-     ****************************** 开始写代码
-     ******************************/
     static List<List<Integer>> subsetSums(int[] nums, int target) {
         Arrays.sort(nums);
         List<List<Integer>> results = new ArrayList<List<Integer>>();
@@ -39,8 +35,6 @@ public class Main1 {
         }
         return;
     }
-
-    /****************************** 结束写代码 ******************************/
 
     public static List<Integer> extractNumList(String arr) {
         Pattern pattern = Pattern.compile("-?\\d+");
